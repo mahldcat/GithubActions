@@ -6,8 +6,6 @@ on:
       - 'main'
     paths-ignore:
       - 'manifest.yml' # Ignore changes only to manifest.yml
-    paths:
-      - '**' # Include all other changes
   pull_request:
     branches:
       - 'main'
