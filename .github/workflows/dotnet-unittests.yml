@@ -2,9 +2,15 @@ name: .NET Build and Test
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - 'main'
+    paths-ignore:
+      - 'manifest.yml' # Ignore changes only to manifest.yml
+    paths:
+      - '**' # Include all other changes
   pull_request:
-    branches: [ main ]
+    branches:
+      - 'main'
 
 jobs:
   build:
@@ -13,16 +19,31 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
+    - name: Install dependencies
+      run: sudo apt-get install -y jq
+
     - name: Setup .NET
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: '8.0' # Specify the .NET version you're using
 
+    - name: Determine versions and build projects
+      run: |
+        # Function to parse YAML - Requires jq installed
+        parse_yaml() {
+          echo $(jq ".$1.versionroot" manifest.yml)
+        }
+
     - name: Restore dependencies
       run: dotnet restore mahldcat.core.libraries.sln
 
+    #build the master solution file 
     - name: Build
       run: dotnet build --configuration Release --no-restore mahldcat.core.libraries.sln
 
+    #verify the build
     - name: Test
       run: dotnet test --no-restore --verbosity normal mahldcat.core.libraries.sln
+
+
+
