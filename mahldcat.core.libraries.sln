@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mahldcat.core", "mahldcat.core\mahldcat.core.csproj", "{9DC20A63-88AB-46EF-B426-EC02645B8096}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mahldcat.core.data", "mahldcat.core.data\mahldcat.core.data.csproj", "{3F3EBF36-46CF-4C7D-93EC-E92B8D33AE43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mahldcat.core.database", "mahldcat.core.database\mahldcat.core.database.csproj", "{87EDF72E-2FE6-4046-BB56-8ED2DE96EED7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mahldcat.core.oauth", "mahldcat.core.oauth\mahldcat.core.oauth.csproj", "{CC28B5CE-8BCB-4E25-8AF5-D48590C1B30E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mahldcat.core.oauth.tests", "mahldcat.core.oauth.tests\mahldcat.core.oauth.tests.csproj", "{4DEDF923-BD9A-4E0E-A53C-E30C864958CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mahldcat.core.tests", "mahldcat.core.tests\mahldcat.core.tests.csproj", "{31E39E69-E017-4757-BAF0-EBA33D0B3708}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DC20A63-88AB-46EF-B426-EC02645B8096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DC20A63-88AB-46EF-B426-EC02645B8096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DC20A63-88AB-46EF-B426-EC02645B8096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DC20A63-88AB-46EF-B426-EC02645B8096}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F3EBF36-46CF-4C7D-93EC-E92B8D33AE43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F3EBF36-46CF-4C7D-93EC-E92B8D33AE43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F3EBF36-46CF-4C7D-93EC-E92B8D33AE43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F3EBF36-46CF-4C7D-93EC-E92B8D33AE43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87EDF72E-2FE6-4046-BB56-8ED2DE96EED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87EDF72E-2FE6-4046-BB56-8ED2DE96EED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87EDF72E-2FE6-4046-BB56-8ED2DE96EED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87EDF72E-2FE6-4046-BB56-8ED2DE96EED7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC28B5CE-8BCB-4E25-8AF5-D48590C1B30E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC28B5CE-8BCB-4E25-8AF5-D48590C1B30E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC28B5CE-8BCB-4E25-8AF5-D48590C1B30E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC28B5CE-8BCB-4E25-8AF5-D48590C1B30E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DEDF923-BD9A-4E0E-A53C-E30C864958CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DEDF923-BD9A-4E0E-A53C-E30C864958CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DEDF923-BD9A-4E0E-A53C-E30C864958CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DEDF923-BD9A-4E0E-A53C-E30C864958CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31E39E69-E017-4757-BAF0-EBA33D0B3708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31E39E69-E017-4757-BAF0-EBA33D0B3708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31E39E69-E017-4757-BAF0-EBA33D0B3708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31E39E69-E017-4757-BAF0-EBA33D0B3708}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
