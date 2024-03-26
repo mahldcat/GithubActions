@@ -1,0 +1,13 @@
+---
+mahldcat.core:
+  baseversion: "1.0"
+  buildcount: 0
+mahldcat.core.data:
+  baseversion: "1.0"
+  buildcount: 0
+mahldcat.core.database:
+  baseversion: "1.0"
+  buildcount: 0
+mahldcat.core.oauth:
+  baseversion: "1.0"
+  buildcount: 0
