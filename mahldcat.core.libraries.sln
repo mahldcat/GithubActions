@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mahldcat.core.oauth.tests",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mahldcat.core.tests", "mahldcat.core.tests\mahldcat.core.tests.csproj", "{31E39E69-E017-4757-BAF0-EBA33D0B3708}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mahldcat.core.eventsampleclass", "mahldcat.core.eventsampleclass\mahldcat.core.eventsampleclass.csproj", "{FB0F3A27-789B-41D6-9DE9-C1856A317391}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mahldcat.core.eventsampleclass.tests", "mahldcat.core.eventsampleclass.tests\mahldcat.core.eventsampleclass.tests.csproj", "{0935C608-9AAE-4288-9F62-1904CCA0AD9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +52,13 @@ Global
 		{31E39E69-E017-4757-BAF0-EBA33D0B3708}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31E39E69-E017-4757-BAF0-EBA33D0B3708}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31E39E69-E017-4757-BAF0-EBA33D0B3708}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB0F3A27-789B-41D6-9DE9-C1856A317391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB0F3A27-789B-41D6-9DE9-C1856A317391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB0F3A27-789B-41D6-9DE9-C1856A317391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB0F3A27-789B-41D6-9DE9-C1856A317391}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0935C608-9AAE-4288-9F62-1904CCA0AD9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0935C608-9AAE-4288-9F62-1904CCA0AD9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0935C608-9AAE-4288-9F62-1904CCA0AD9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0935C608-9AAE-4288-9F62-1904CCA0AD9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

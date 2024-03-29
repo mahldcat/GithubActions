@@ -18,7 +18,7 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Install dependencies
-      run: sudo apt-get install -y jq
+      run: sudo apt-get install -y yq
 
     - name: Setup .NET
       uses: actions/setup-dotnet@v1
@@ -27,7 +27,7 @@ jobs:
 
     - name: Determine versions and build projects
       run: |
-        # Function to parse YAML - Requires jq installed
+        # Function to parse YAML - Requires yq installed
         parse_yaml() {
           echo $(jq ".$1.versionroot" manifest.yml)
         }
